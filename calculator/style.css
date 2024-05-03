@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+body{
+    background-image: linear-gradient(to bottom right, #BAB0D4,#4c1a57d3) !important;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.cal{
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px #43174d;
+}
+.theme-toggler{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+}
+.theme-toggler.active{
+    color: #333;
+}
+.theme-toggler.active::before{
+    background-color: #fff;
+}
+.theme-toggler::before{
+    content: "";
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 25%;
+    background-color: #5b5555;
+    z-index: -1;
+}
+#display{
+    margin: 0 10px;
+    height: 150px;
+    width: auto;
+    max-width: 270px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+}
+#display::-webkit-scrollbar{
+    display: block;
+    height: 3px;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+button:hover{
+    transform: scale(1.1);
+}
+button#equal{
+    height: 130px;
+}
+
+
+/* LIGHT MODE */
+
+.cal{
+    background-image: linear-gradient(to bottom right, #C0D5FB,#B488BF) ;
+}
+.cal #display{
+    color: #0a1e23;
+}
+.cal button#clear{
+    background-color: #f5bbe68f;
+    color: #cc6c72e7;
+}
+.cal button.btn-num{
+    background-color: #a6c0eebe;
+    color: #3f2a5d;
+}
+.cal button.btn-operator{
+    background-color: #ba69a35b;
+    color: #6a2f79;
+}
+.container button.btn-equal{
+    background-color: #adf9e7;
+    color: #000 ;
+}
+
+/* DARK MODE */
+
+.cal.dark{
+    background-image:linear-gradient(to bottom right,#9a5dbc, #5b146f9f) ;
+}
+.cal.dark #display{
+    color: #d3d3d3;
+}
+.cal.dark button#clear{
+    background-color: #2b124c92;
+    color: #DFB6B2;
+}
+.cal.dark button.btn-num{
+    background-color: #854f6cb1;
+    color: #DFB6B2;
+}
+.cal.dark button.btn-operator{
+    background-color: #522b5b6a;
+    color: #FBE4D8;
+}
+.cal.dark button.btn-equal{
+    background-color: #223323;
+    color: #ffffff;  
+}

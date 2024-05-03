@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://i.pinimg.com/564x/6e/c4/4b/6ec44b1a91a7cda2803d76ae5fa3c745.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    background: transparent;
+    border: none ;
+    width: 100%;
+    height: 20%;
+}
+.navbar{
+    width: 100%;
+}
+.navbar-brand{
+    margin-left: 5%;
+    font-size: 35px;
+    color: rgba(109, 9, 109, 0.673);
+}
+.navbar-brand:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+.navbar-nav{
+    margin-left: 60%;
+}
+.nav-link{
+    margin-left: 7%;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+.nav-link:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+header{
+    margin-top: 5%;
+}
+.section1{
+    width: 100%;
+    height: 20%;
+}
+
+.section1 h1{
+    color: rgba(39, 23, 53, 0.754);
+    margin-left: 8%;
+}
+.section1 p{
+    font-size: 20px;
+    margin-left:8%;
+    margin-top: 3%;
+    color: #000000a2;
+}
+.section1 button{
+    background-color: rgba(109, 9, 109, 0.673);
+    color: wheat;
+    border: none;
+    width: 15%;
+    height: 29%;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 8%;
+}
+.section2{
+    margin-top: 3%;
+}
+.section2 img{
+    width: 80px ;
+    height: 80px;
+    border-radius: 50%;
+}
+ h2{
+    font-weight: 800;
+    text-align: center;
+    color: rgba(33, 33, 33, 0.846);
+}
+.section2 .p{
+    margin-top: 2%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.747);
+}
+.section2 .f{
+    margin-top: 4%;
+    display: flex;
+}
+.f img{
+    margin-left: 40%;
+}
+.f h6{
+    margin-top: 7%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.UF{
+    margin-top: -2%;
+}
+.f p{
+    color: rgb(103, 103, 104);
+    text-align: center;
+    padding: 20px;
+}
+.section3{
+    margin-top: 3%;
+}
+.border{
+    border: 2px solid rgba(174, 174, 174, 0.643) !important;
+    height: 80%;
+    width: 40%;
+    margin-left: 40%;
+    margin-top: 5%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.section3 li{
+    padding-top: 10px ;
+}
+hr{
+    margin-top: 5%;
+}
+footer{
+    bottom: 0;
+    margin-top: 5%;
+}
+.foot{
+    text-align: center;
+    color: #666666a2;
+}
+.follow{
+    display: flex;
+    font-size: 19px;
+    justify-content: center;
+    align-items: center;
+}
+.follow i{
+    margin-top: -1%;
+    padding: 10px;
+    color: #000000a2;
+}
+.follow i:hover{
+    cursor: pointer;
+    color:  blueviolet;
+}
+img{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) !important;
+}
