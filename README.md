@@ -51,3 +51,13 @@ HTML5 — Markup and structure
 CSS3 — Styling and layout
 
 JavaScript — Interactivity and logic
+
+💡 Future Enhancements
+
+Add responsive navigation menus
+
+Improve accessibility and mobile responsiveness
+
+Integrate animations and UI enhancements
+
+Convert into a full portfolio with routing & projects pages
