@@ -70,6 +70,7 @@ CSS3 — Styling and layout
 
 JavaScript — Interactivity and logic
 
+
 💡 Future Enhancements
 
 Add responsive navigation menus
