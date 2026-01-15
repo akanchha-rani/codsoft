@@ -22,4 +22,11 @@ codsoft/
 ├── style.css          # Global styles
 ├── bg.jpeg            # Background image used in one or more pages
 └── README.md          # This file
+🚀 Features
+📌 Landing Page
 
+Clean layout with welcome/header section
+
+Engaging UI to introduce a brand, service, or individual
+
+Fully styled using CSS
