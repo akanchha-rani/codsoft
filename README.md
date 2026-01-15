@@ -37,3 +37,10 @@ Highlights personal skills and projects
 Ideal for showcasing professional profile
 
 Mobile-friendly design
+📌 Calculator
+
+Performs basic arithmetic operations
+
+Built with interactive JavaScript logic
+
+Simple and intuitive user experience
