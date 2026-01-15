@@ -30,4 +30,10 @@ Clean layout with welcome/header section
 Engaging UI to introduce a brand, service, or individual
 
 Fully styled using CSS
+📌 Portfolio
 
+Highlights personal skills and projects
+
+Ideal for showcasing professional profile
+
+Mobile-friendly design
