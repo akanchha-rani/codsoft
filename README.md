@@ -1,9 +1,9 @@
-CodSoft — Web Development Projects
+## CodSoft — Web Development Projects
 
 Welcome to the CodSoft repository — a collection of web development projects built as part of practical learning and tasks. This project showcases frontend skills (HTML, CSS, JavaScript) through functional and visually appealing web pages.
 
 
-🧠 About
+## 🧠 About
 
 This repository contains three main projects:
 
@@ -16,7 +16,7 @@ Calculator — A functional calculator built with HTML, CSS & JavaScript.
 These projects demonstrate fundamental frontend concepts such as layout design, responsive styling, interactivity, and clean code structure.
 
 
-📁 Project Structure
+## 📁 Project Structure
 
 codsoft/
 
@@ -35,7 +35,7 @@ codsoft/
 └── README.md          # This file
 
 
-🚀 Features
+## 🚀 Features
 
 📌 Landing Page
 
@@ -62,7 +62,7 @@ Built with interactive JavaScript logic
 Simple and intuitive user experience
 
 
-🛠️ Built With
+## 🛠️ Built With
 
 HTML5 — Markup and structure
 
@@ -71,7 +71,7 @@ CSS3 — Styling and layout
 JavaScript — Interactivity and logic
 
 
-💡 Future Enhancements
+## 💡 Future Enhancements
 
 Add responsive navigation menus
 
